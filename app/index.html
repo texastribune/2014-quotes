@@ -27,13 +27,17 @@
     <i class="fa fa-chevron-left"></i>
   </div>
   <div class="slider">
+  {% for quote in QUOTES %}
     <div class="slide">
       <div class="quote">
-        <h3 class="quote-text">"You know how long that takes in Texas at 75 miles an hour? That's a particularly flat highway."</h3>
-        <p class="blurb">-U.S. 5th Circuit Court Judge Edith Jones, suggesting that quick highways mean traveling hundreds of miles from the Rio Grande Valley to obtain an abortion wouldn't be an "undue burden," during a hearing the federal appeals court held on a new Texas abortion law.</p>
+        <h3 class="quote-text">{{ quote.quote }}</h3>
+        <p class="blurb">{{ quote.blurb }}</p>
       </div>
-      <div class="quote-img"></div>
+      <div class="quote-img">
+        <img src="{{ quote.imgUrl }}">
+      </div>
     </div>
+  {% endfor %}
   </div>
   <div class="next slide-btn">
     <i class="fa fa-chevron-right"></i>
