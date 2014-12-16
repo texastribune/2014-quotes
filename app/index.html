@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{ META.project_name }} | The Texas Tribune</title>
+  <meta name="description" content="{{ META.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <h1>{{ META.project_name }}</h1>
+</header>
+<p>In year where the governor got indicted, candidates duked it out in races for every statewide political office, and Ebola came to Dallas, there were plenty of contenders for the list — even without the Legislature in session. But we’ve done our best to collect the most noteworthy quotes of 2014, straight from the mouths of Texas politicos, be they silver-tongued or tongue-tied. Click through our slideshow to revisit their acrobatic missteps, well-packed verbal punches, and occasional moments of eloquence over the last 12 months.</p>
+<div id="graphic" class="graphic">
+  <div class="prev slide-btn">
+    <i class="fa fa-chevron-left"></i>
+  </div>
+  <div class="slider">
+    <div class="slide">
+      <div class="quote">
+        <h3 class="quote-text">"You know how long that takes in Texas at 75 miles an hour? That's a particularly flat highway."</h3>
+        <p class="blurb">-U.S. 5th Circuit Court Judge Edith Jones, suggesting that quick highways mean traveling hundreds of miles from the Rio Grande Valley to obtain an abortion wouldn't be an "undue burden," during a hearing the federal appeals court held on a new Texas abortion law.</p>
+      </div>
+      <div class="quote-img"></div>
+    </div>
+  </div>
+  <div class="next slide-btn">
+    <i class="fa fa-chevron-right"></i>
+  </div>
+
+</div>
+
+<footer>
+  <div>Source{{ 's' if sources.length > 1 else '' }}: {% for source in sources %}<a href="{{ source.url }}" target="_blank">{{ source.name }}</a> {% if not loop.last %} | {% endif %}{% endfor %}</div>
+  <div>Produced by {% for author in authors %}<a href="{{ author.url }}">{{ author.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</div>
+</footer>
+
+<!-- build:js scripts/vendor.js -->
+<!-- bower:js -->
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js({app,.tmp}) scripts/main.js -->
+<script src="scripts/main.js"></script>
+<script src="scripts/pymload.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>
