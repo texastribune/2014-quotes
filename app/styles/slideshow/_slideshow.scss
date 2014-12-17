@@ -19,7 +19,7 @@
 
   .quote{
     // @include span-columns(6);
-    width: 50%;
+    width: 60%;
     float: left;
   }
 
@@ -35,7 +35,7 @@
   .quote-img{
     // @include span-columns(6);
     float: right;
-    width: 50%;
+    width: 40%;
   }
 }
 
@@ -60,9 +60,10 @@
 .related-story{
   color: $text-gray;
   font-family: $base-sans-serif;
-  font-size: .85em;
+  font-size: .90em;
   font-weight: 400;
-  margin: .25em 0;
+  margin: .25em 0 0 0;
+  font-variant: small-caps;
 }
 
 .story-url{
