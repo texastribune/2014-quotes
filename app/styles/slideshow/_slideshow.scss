@@ -1,15 +1,15 @@
 
 
 .slider{
-  // @include row();
-  // position: relative;
-  // margin: 0px auto;
-  // @include outer-container;
+  @include clearfix;
   .slide{
+    @include clearfix;
     // @include span-columns(10);
     border: 1px solid #ccc;
     padding: 10px;
     display:none;
+    margin: 0px auto;
+    width: 80%;
   }
 
   .active{
@@ -19,8 +19,10 @@
 
   .quote{
     // @include span-columns(6);
-    width: 50%
+    width: 50%;
+    float: left;
   }
+
   .quote-no-img{
     // @include span-columns(10);
     margin-left: 3em;
@@ -32,6 +34,8 @@
 
   .quote-img{
     // @include span-columns(6);
+    float: right;
+    width: 50%;
   }
 }
 
@@ -46,18 +50,24 @@
 }
 
 .next{
-  right: -0px
+  right: -0px;
 }
 .prev{
-  left: -0px
+  left: -0px;
+  z-index: 1001;
 }
 
 .related-story{
-  font-variant: small-caps;
+  color: $text-gray;
+  font-family: $base-sans-serif;
+  font-size: .85em;
+  font-weight: 400;
+  margin: .25em 0;
 }
 
 .story-url{
-
+  font-weight: 800;
+  color: $href-teal;
 }
 
 .view-all{

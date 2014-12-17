@@ -26,13 +26,15 @@
   <div class="prev slide-btn">
     <i class="fa fa-chevron-left"></i>
   </div>
+  <div class="clearfix">
   <div class="slider">
   {% for quote in QUOTES %}
     {% if quote.imgOK == 'y' %}
-      <div class="slide slide-{{ quote.num }}" data-num="{{ quote.num }}">
-        <div class="quote">
-          <h3 class="quote-text">{{ quote.quote }}</h3>
-          <p class="blurb">{{ quote.blurb }}</p>
+      <div class="slide">
+      <div class="clearfix">
+        <div class="prose quote">
+          <h2 class="quote-text">{{ quote.quote }}</h2>
+          <p class="blurb explainer-text">{{ quote.blurb }}</p>
           <p class="related-story">Related Story</p>
           <p class="story-url"><a href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
         </div>
@@ -40,17 +42,21 @@
           <img class="quote-img" src="{{ quote.imgUrl }}">
         </div>
       </div>
+      </div>
     {% else %}
-      <div class="slide slide-{{ quote.num }}" data-num="{{ quote.num }}">
-        <div class="quote-no-img">
-          <h3 class="quote-text">{{ quote.quote }}</h3>
-          <p class="blurb">{{ quote.blurb }}</p>
-          <p class="related-story">Related Story</p>
-          <p class="story-url"><a href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
+      <div class="slide">
+      <div class="clearfix">
+        <div class="quote-no-img prose">
+          <h2 class="quote-text">{{ quote.quote }}</h2>
+          <p class="blurb explainer-text">{{ quote.blurb }}</p>
+          <p class="source related-story">Related Story</p>
+          <p><a class="story-url" href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
         </div>
+      </div>
       </div>
     {% endif %}
   {% endfor %}
+  </div>
   </div>
   <div class="next slide-btn">
     <i class="fa fa-chevron-right"></i>
