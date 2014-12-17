@@ -24,22 +24,41 @@
     }
 
   .quote{
-    @include span-columns(6);
+    @include span-columns(12);
   }
+}
 
-  .quote-no-img{
+.blurb-box{
+  @include span-columns(12);
+}
 
+.blurb{
+  @include span-columns(8);
+  background: $explainer-gray;
+  color: $bodytext-black;
+  font-family: $base-sans-serif;
+  font-weight: 300;
+  line-height: 1.3;
+  padding: 1em;
+}
+
+.quote-img{
+  @include span-columns(4);
+  vertical-align: middle;
+  img{
+    width: 100%;
   }
+}
 
-  .blurb{
-  }
-
-  .quote-img{
-    @include span-columns(6);
-    vertical-align: middle;
-    img{
-      width: 100%;
+.quote-no-img{
+  @include span-columns(12);
+  .blurb-box{
+    .blurb{
+      @include span-columns(12);
     }
+  }
+  .related-content{
+    @include span-columns(12);
   }
 }
 

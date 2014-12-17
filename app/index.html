@@ -36,30 +36,37 @@
         <div class="slide">
           <div class="prose quote">
             <h2 class="quote-text">{{ quote.quote }}</h2>
-            <p class="blurb explainer-text">{{ quote.blurb }}</p>
-            <p class="related-story source">related story</p>
-            <p><a class="story-url" href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
+            <h4 class="speaker">{{ quote.speaker }}</h4>
           </div>
-          <div class="quote-img">
-            <img src="{{ quote.imgUrl }}">
-            <div class="share-box">
-              <p>Share <span class="fa fa-twitter"></span></p>
+          <div class="blurb-box">
+            <p class="blurb explainer-text">{{ quote.blurb }}</p>
+            <div class="quote-img">
+              <img src="{{ quote.imgUrl }}">
+            </div>
+          </div>
+        <div class="related-content">
+          <p class="related-story source">related story</p>
+          <p><a class="story-url" href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
+        </div>
+      </div>
+      {% else %}
+        <div class="slide">
+          <div class="quote-no-img prose">
+            <div class="prose quote">
+              <h2 class="quote-text">{{ quote.quote }}</h2>
+              <h4 class="speaker">{{ quote.speaker }}</h4>
+            </div>
+            <div class="blurb-box">
+              <p class="blurb explainer-text">{{ quote.blurb }}</p>
+            </div>
+            <div class="related-content">
+              <p class="related-story">related story</p>
+              <p><a class="story-url" href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
             </div>
           </div>
         </div>
-      {% else %}
-        <div class="slide">
-        <div class="clearfix">
-          <div class="quote-no-img prose">
-            <h2 class="quote-text">{{ quote.quote }}</h2>
-            <p class="blurb explainer-text">{{ quote.blurb }}</p>
-            <p class="related-story">related story</p>
-            <p><a class="story-url" href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
-          </div>
-        </div>
-      </div>
-    {% endif %}
-  {% endfor %}
+      {% endif %}
+    {% endfor %}
   </div>
   </div>
     <div class="next slide-btn">
