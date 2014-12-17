@@ -1,9 +1,12 @@
+
+
 .slider{
+  // @include row();
   // position: relative;
   // margin: 0px auto;
   // @include outer-container;
   .slide{
-    @include span-columns(10);
+    // @include span-columns(10);
     border: 1px solid #ccc;
     padding: 10px;
     display:none;
@@ -11,13 +14,16 @@
 
   .active{
       display: block;
+      position: relative;
     }
 
   .quote{
-    @include span-columns(6);
+    // @include span-columns(6);
+    width: 50%
   }
   .quote-no-img{
-    @include span-columns(12);
+    // @include span-columns(10);
+    margin-left: 3em;
   }
 
   .blurb{
@@ -25,29 +31,37 @@
   }
 
   .quote-img{
-    @include span-columns(6);
+    // @include span-columns(6);
   }
 }
 
 .slide-btn{
-  @include span-columns(1);
+  position: absolute;
   cursor: pointer;
-  padding: 10px;
+  top: 50%;
+  // padding: 10px;
   font-size: 30px;
   transition: all 0.2s linear;
   color: black;
 }
 
-.read-more{
-
+.next{
+  right: -0px
+}
+.prev{
+  left: -0px
 }
 
-.article{
+.related-story{
+  font-variant: small-caps;
+}
+
+.story-url{
 
 }
 
 .view-all{
-  @include span-columns(2);
+  // @include span-columns(2);
   cursor: pointer;
   border: 1px solid #ccc;
   :hover{
