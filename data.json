@@ -1,7 +1,7 @@
 {
   "QUOTES": [
     {
-      "num": "0",
+      "slug": "0",
       "quote": "\"You know how long that takes in Texas at 75 miles an hour? That's a particularly flat highway.\"",
       "month": "January",
       "blurb": "U.S. 5th Circuit Court Judge Edith Jones, suggesting that quick highways mean traveling hundreds of miles from the Rio Grande Valley to obtain an abortion wouldn't be an \"undue burden,\" during a hearing the federal appeals court held on a new Texas abortion law.",
@@ -10,7 +10,7 @@
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2013/07/22/Protesters-Split_jpg_312x1000_q100.jpg"
     },
     {
-      "num": "1",
+      "slug": "1",
       "quote": "“MARRIAGE = ONE MAN & ONE MAN. Enough of these activist judges. FAVORITE if you agree. I know the silent majority out there is with us!”",
       "month": "February",
       "blurb": "A mistaken tweet from state Sen. Dan Patrick, now lieutenant governor-elect, who staunchly opposes gay marriage, written by a staffer and later deleted. ",
@@ -19,7 +19,7 @@
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/03/04/Patrick3-web_jpg_312x1000_q100.jpg"
     },
     {
-      "num": "2",
+      "slug": "2",
       "quote": "\"Apparently I’ve out-foxed the campaign deal, so maybe I need to be a consultant. I’m not going to run all over the state. I work.\"",
       "month": "March",
       "blurb": "Democratic agriculture commissioner candidate Jim Hogan, who later lost by nearly the same margin as the high-profile candidate at the top-of-the-ticket, on his come-from-nowhere appearance in the party runoff for the statewide office.",
@@ -28,7 +28,7 @@
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/03/26/JimHogan_jpg_75x75_crop_q100.jpg"
     },
     {
-      "num": "3",
+      "slug": "3",
       "quote": "\"Out there on Twitter, in front of the Alamo in your campaign, you know, you’ve been huffing and puffing like the big bad wolf and now you’re dancing around, tiptoeing like Little Red Riding Hood on this issue.\"",
       "month": "April",
       "blurb": "San Antonio Mayor Julian Castro as he debated Lt. Gov. Elect on immigration, claiming that Patrick had softened his stand on immigration. ",
@@ -37,7 +37,7 @@
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/04/15/CastroPatrick309_jpg_75x75_crop_q100.jpg"
     },
     {
-      "num": "4",
+      "slug": "4",
       "quote": "\"Dewhurst has asked me to cease distribution of this information. He also asked me not to run against him for Lt. Gov. I didn't really give a damn what David wanted then, and I don't give a damn now. The voters of Texas need to know.\"",
       "month": "May",
       "blurb": "Lieutenant governor candidate Jerry Patterson in an email sent to reporters releasing documents on the medical history of his former opponent, state Sen. Dan Patrick, during Patrick's runoff with incumbent David Dewhurst.",
@@ -46,7 +46,7 @@
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/videos/pattersonspot_png_260x1000_q100.png"
     },
     {
-      "num": "5",
+      "slug": "5",
       "quote": "\"Some Democrats have said they wanted me to be the nominee. Well, they’ve got me and I’m coming.\"",
       "month": "May",
       "blurb": "State Sen. Dan Patrick, now lt. gov. elect, as he won a May runoff with incumbent David Dewhurst to become the Republican nominee. ",
@@ -55,7 +55,7 @@
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/05/27/DAN_PATRICK_RUNOFF9501_jpg_800x1000_q100.jpg"
     },
     {
-      "num": "6",
+      "slug": "6",
       "quote": "\"The uninformed opinions of a Washington, D.C., desk jockey who's never stepped foot in Texas couldn't be less relevant to what's actually happening on the ground.\"",
       "month": "June",
       "blurb": "Wendy Davis campaign manager Karin Johanson, pushing back against a less-than-rosy assessment of the candidate's chances given by Democratic Governors Association Chairman Peter Shumlin.",
@@ -64,7 +64,7 @@
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/09/19/ttf-davisabbott-3_JPG_312x1000_q100.JPG"
     },
     {
-      "num": "7",
+      "slug": "7",
       "quote": "“We need to look at the states, which are lavatories of innovation and democracy.”",
       "month": "August",
       "blurb": "Gov. Rick Perry, tripping on his words at a speaking engagement in New Hampshire.",
@@ -73,7 +73,7 @@
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/09/21/xxTribFest_Perry392_jpg_260x1000_q100.jpg"
     },
     {
-      "num": "8",
+      "slug": "8",
       "quote": "\"We don't settle political differences with indictments in this country. It is outrageous that some would use partisan political theatrics to rip away at the very fabric of our state's constitution.\"",
       "month": "August",
       "blurb": "Gov. Rick Perry, speaking at a news conference the day after a Travis County grand jury returned an indictment against him on two felony charges",
@@ -82,7 +82,7 @@
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/videos/Perry_in_court_Nov_2014_jpg_260x1000_q100.jpg"
     },
     {
-      "num": "9",
+      "slug": "9",
       "quote": "“And all I can do is deal with the issues that are before me… the job of attorney general is to represent and defend in court the laws of their client, which is  the state Legislature, unless and until, a court strikes it down.”",
       "month": "October",
       "blurb": "Attorney General Greg Abbott, now governor-elect, when asked by the San Antonio Express-News editorial board whether as attorney general he would have defended a ban on interracial marriage. ",
@@ -91,7 +91,7 @@
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/11/11/UP9A9907_jpg_312x1000_q100.jpg"
     },
     {
-      "num": "10",
+      "slug": "10",
       "quote": "\"If that dog has to be The Boy in the Plastic Bubble, we're going to take good care of that dog.\"",
       "month": "October",
       "blurb": "Dallas County Judge Clay Jenkins, referring to the monitoring of a dog belonging to nurse Tina Pham, who contracted Ebola while caring for a patient in Texas Health Presbyterian Hospital",
@@ -100,7 +100,7 @@
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/10/09/ClayJenkinsTribLiveTTCrop_jpg_312x1000_q100.jpg"
     },
     {
-      "num": "11",
+      "slug": "11",
       "quote": "\"\"The only way we will have lost tonight is if we stop fighting. I am so proud of all that we have accomplished.\"",
       "month": "November",
       "blurb": "Democrat Wendy Davis, speaking to her supporters on Election Night as she conceded the governor's race to Republican Greg Abbott.  ",
@@ -109,7 +109,7 @@
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/07/12/TXTDavisCanvas-CCR001_jpg_800x1000_q100.jpg"
     },
     {
-      "num": "12",
+      "slug": "12",
       "quote": "“We were elected to govern. If we blow it by not governing, then shame on us.”",
       "month": "December",
       "blurb": "U.S. Rep. Michael McCaul, R-Austin, criticizing U.S Sen. Ted Cruz's tactic of opposing the must-pass federal spending bill as part of his efforts to countermand President Obama's executive order on immigration.",

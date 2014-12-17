@@ -2,16 +2,18 @@
 
 $(document).ready(function() {
 
-  $('.slide-0').addClass('active');
+  // function showQuoteSlide(index){
+  //    $('.slide.slide-' + slug).addClass('active').siblings('.active').removeClass('active');
+  // };
 
-  $('.slide-btn.next').on('click', function(){
-    var activeSlide = $('.active'),
-      idx = activeSlide.index(),
-      nextSlide = idx += 1;
-      $(activeSlide).removeClass('active');
-      $('.slide').index(nextSlide).addClass('active');
-      console.log(idx);
-      console.log(nextSlide);
+
+  $('.slide').eq(0).addClass('active');
+
+  $('.slide-btn').on('click', function(){
+    var activeSlide = $('.slide.active'),
+      idx = $('.slide').index(activeSlide),
+      nextSlide = $(this).hasClass('next') ? idx + 1 : idx - 1;
+    $('.slide').eq(nextSlide).addClass('active').siblings('.active').removeClass('active');
   });
 
   $('.view-all').on('click', function(){
