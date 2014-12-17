@@ -18,6 +18,8 @@ $(document).ready(function() {
 
   $('.view-all').on('click', function(){
     $('.slide').addClass('active');
+    $('.slide-btn').addClass('hidden');
+    $('.view-all').addClass('hidden');
   });
 
 });

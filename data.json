@@ -7,7 +7,8 @@
       "blurb": "U.S. 5th Circuit Court Judge Edith Jones suggesting during a hearing the federal appeals court held on a new Texas abortion law that quick highways mean traveling hundreds of miles from the Rio Grande Valley to obtain an abortion wouldn't be an \"undue burden\" ",
       "headline": "Judges Question Texas Abortion Law Critics' Claims",
       "articleUrl": "http://www.houstonchronicle.com/news/politics/texas/article/Judges-question-Texas-abortion-law-critics-claims-5119245.php",
-      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2013/07/22/Protesters-Split_jpg_312x1000_q100.jpg"
+      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2013/07/22/Protesters-Split_jpg_312x1000_q100.jpg",
+      "imgOK": "y"
     },
     {
       "slug": "1",
@@ -16,7 +17,8 @@
       "blurb": "A mistaken tweet from state Sen. Dan Patrick, now lieutenant governor-elect, who staunchly opposes gay marriage, written by a staffer and later deleted",
       "headline": "Dan Patrick Tweet on Gay Marriage is Set Straight",
       "articleUrl": "http://www.dallasnews.com/news/politics/state-politics/elections/20140226-patrick-tweet-on-gay-marriage-is-set-straight.ece",
-      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/03/04/Patrick3-web_jpg_312x1000_q100.jpg"
+      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/03/04/Patrick3-web_jpg_312x1000_q100.jpg",
+      "imgOK": "y"
     },
     {
       "slug": "2",
@@ -25,7 +27,8 @@
       "blurb": "Democratic agriculture commissioner candidate Jim Hogan on his come-from-nowhere appearance in the party runoff for the statewide office. After winning the Democratic nomination, he lost by nearly the same margin as the party's high-profile gubernatorial candidate, Wendy Davis.",
       "headline": "No Money is No Problem for Democrat Jim Hogan in Texas Agriculture Commissioner Race",
       "articleUrl": "http://www.dallasnews.com/news/politics/headlines/20140316-no-money-is-no-problem-for-democrat-jim-hogan-in-texas-agriculture-commissioner-race.ece",
-      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/03/26/JimHogan_jpg_75x75_crop_q100.jpg"
+      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/03/26/JimHogan_jpg_75x75_crop_q100.jpg",
+      "imgOK": "n"
     },
     {
       "slug": "3",
@@ -34,7 +37,8 @@
       "blurb": "San Antonio Mayor Julián Castro, a Democrat, as he debated Republican lieutenant governor candidate Dan Patrick, claiming that Patrick had softened his stand on immigration",
       "headline": "Castro and Patrick Spar Over Immigration, Build Political Capital for the Future",
       "articleUrl": "http://tpr.org/post/castro-and-patrick-spar-over-immigration-build-political-capital-future",
-      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/04/15/CastroPatrick309_jpg_75x75_crop_q100.jpg"
+      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/04/15/CastroPatrick309_jpg_75x75_crop_q100.jpg",
+      "imgOK": "n"
     },
     {
       "slug": "4",
@@ -43,7 +47,8 @@
       "blurb": "Lieutenant governor candidate Jerry Patterson in an email sent to reporters releasing documents on the medical history of his former opponent, state Sen. Dan Patrick, during Patrick's runoff with incumbent David Dewhurst",
       "headline": "Patrick Blasts Dewhurst and Patterson for Medical Disclosures",
       "articleUrl": "http://www.texastribune.org/2014/05/16/possible-dewhurst-involvement-patrick-revelations/",
-      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/videos/pattersonspot_png_260x1000_q100.png"
+      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/videos/pattersonspot_png_260x1000_q100.png",
+      "imgOK": "y"
     },
     {
       "slug": "5",
@@ -52,7 +57,8 @@
       "blurb": "State Sen. Dan Patrick, now lieutenant governor-elect, as he won a May runoff with incumbent David Dewhurst to become the Republican nominee",
       "headline": "Democrats See Opportunity in GOP Ticket",
       "articleUrl": "http://www.houstonchronicle.com/news/politics/texas/article/Democrats-see-opportunity-in-GOP-ticket-5511433.php#/0",
-      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/05/27/DAN_PATRICK_RUNOFF9501_jpg_800x1000_q100.jpg"
+      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/05/27/DAN_PATRICK_RUNOFF9501_jpg_800x1000_q100.jpg",
+      "imgOK": "y"
     },
     {
       "slug": "6",
@@ -61,7 +67,8 @@
       "blurb": "Wendy Davis campaign manager Karin Johanson, pushing back against a less-than-rosy assessment of the candidate's chances given by Democratic Governors Association Chairman Peter Shumlin",
       "headline": "Wendy Davis Defiant as Campaign Grinds On",
       "articleUrl": "http://www.politico.com/story/2014/06/wendy-davis-defiant-as-campaign-grinds-on-108147.html",
-      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/09/19/ttf-davisabbott-3_JPG_312x1000_q100.JPG"
+      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/09/19/ttf-davisabbott-3_JPG_312x1000_q100.JPG",
+      "imgOK": "y"
     },
     {
       "slug": "7",
@@ -70,7 +77,8 @@
       "blurb": "Gov. Rick Perry, tripping on his words at a speaking engagement in New Hampshire",
       "headline": "Is It Any Wonder They’re Flush With Prosperity?",
       "articleUrl": "http://www.texasmonthly.com/story/rick-perry-bum-steer-of-the-month-october-2014",
-      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/09/21/xxTribFest_Perry392_jpg_260x1000_q100.jpg"
+      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/09/21/xxTribFest_Perry392_jpg_260x1000_q100.jpg",
+      "imgOK": "y"
     },
     {
       "slug": "8",
@@ -79,7 +87,8 @@
       "blurb": "Gov. Rick Perry, speaking at a news conference the day after a Travis County grand jury returned an indictment against him on two felony charges",
       "headline": "Perry Fires Back, Calls Indictment a Political Ploy",
       "articleUrl": "http://www.texastribune.org/2014/08/16/perry-fires-back-calls-indictment-political-ploy/",
-      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/videos/Perry_in_court_Nov_2014_jpg_260x1000_q100.jpg"
+      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/videos/Perry_in_court_Nov_2014_jpg_260x1000_q100.jpg",
+      "imgOK": "y"
     },
     {
       "slug": "9",
@@ -88,7 +97,8 @@
       "blurb": "Attorney General Greg Abbott, now governor-elect, when asked by the San Antonio Express-News editorial board whether as attorney general he would have defended a ban on interracial marriage [[italicize San Antonio Express-News]]",
       "headline": "Does Anyone Really Believe That Greg Abbott Opposes Interracial Marriage?",
       "articleUrl": "http://dallasmorningviewsblog.dallasnews.com/2014/10/does-anyone-really-believe-that-greg-abbott-opposes-interracial-marriage.html/",
-      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/11/11/UP9A9907_jpg_312x1000_q100.jpg"
+      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/11/11/UP9A9907_jpg_312x1000_q100.jpg",
+      "imgOK": "y"
     },
     {
       "slug": "10",
@@ -97,7 +107,8 @@
       "blurb": "Dallas County Judge Clay Jenkins, referring to the monitoring of a dog belonging to nurse Nina Pham, who contracted Ebola while caring for a patient at Texas Health Presbyterian Hospital",
       "headline": "5 Questions on Ebola With County Judge Clay Jenkins",
       "articleUrl": "http://www.wfaa.com/story/news/health/2014/10/13/ebola-dallas-county-judge-clay-jenkins-second-patient/17182925/",
-      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/10/09/ClayJenkinsTribLiveTTCrop_jpg_312x1000_q100.jpg"
+      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/10/09/ClayJenkinsTribLiveTTCrop_jpg_312x1000_q100.jpg",
+      "imgOK": "y"
     },
     {
       "slug": "11",
@@ -106,7 +117,8 @@
       "blurb": "Democrat Wendy Davis, speaking to her supporters on election night as she conceded the governor's race to Republican Greg Abbott",
       "headline": "Greg Abbott Crushes Wendy Davis in GOP Sweep",
       "articleUrl": "http://www.texastribune.org/2014/11/04/abbott-crushes-wendy-davis-gop-sweep/",
-      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/07/12/TXTDavisCanvas-CCR001_jpg_800x1000_q100.jpg"
+      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/07/12/TXTDavisCanvas-CCR001_jpg_800x1000_q100.jpg",
+      "imgOK": "y"
     },
     {
       "slug": "12",
@@ -115,7 +127,8 @@
       "blurb": "U.S. Rep. Michael McCaul, R-Austin, criticizing U.S Sen. Ted Cruz's tactic of opposing the must-pass federal spending bill as part of his efforts to countermand President Obama's executive order on immigration",
       "headline": "Cruz Colleague Slams Senator's Immigration Tactics",
       "articleUrl": "http://www.bloomberg.com/politics/articles/2014-12-11/cruz-colleague-slams-senators-immigration-tactics",
-      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/MichaelMcCaul_1_jpg_75x75_crop_q100.jpg"
+      "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/MichaelMcCaul_1_jpg_75x75_crop_q100.jpg",
+      "imgOK": "n"
     }
   ]
 }

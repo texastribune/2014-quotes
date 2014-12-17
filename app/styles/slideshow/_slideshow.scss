@@ -16,13 +16,16 @@
   .quote{
     @include span-columns(6);
   }
+  .quote-no-img{
+    @include span-columns(12);
+  }
 
   .blurb{
     margin: 0 0 0 1em;
   }
 
   .quote-img{
-    @include span-columns(4);
+    @include span-columns(6);
   }
 }
 
@@ -50,4 +53,8 @@
   :hover{
     background-color: #aaa;
   }
+}
+
+.hidden{
+  display: none;
 }

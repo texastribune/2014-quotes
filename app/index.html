@@ -28,17 +28,28 @@
   </div>
   <div class="slider">
   {% for quote in QUOTES %}
-    <div class="slide slide-{{ quote.num }}" data-num="{{ quote.num }}">
-      <div class="quote">
-        <h3 class="quote-text">{{ quote.quote }}</h3>
-        <p class="blurb">{{ quote.blurb }}</p>
-        <p class="related-story">Related Story</p>
-        <p class="story-url"><a href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
+    {% if quote.imgOK == 'y' %}
+      <div class="slide slide-{{ quote.num }}" data-num="{{ quote.num }}">
+        <div class="quote">
+          <h3 class="quote-text">{{ quote.quote }}</h3>
+          <p class="blurb">{{ quote.blurb }}</p>
+          <p class="related-story">Related Story</p>
+          <p class="story-url"><a href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
+        </div>
+        <div class="img">
+          <img class="quote-img" src="{{ quote.imgUrl }}">
+        </div>
       </div>
-      <div class="quote-img">
-        <img class="quote-img" src="{{ quote.imgUrl }}">
+    {% else %}
+      <div class="slide slide-{{ quote.num }}" data-num="{{ quote.num }}">
+        <div class="quote-no-img">
+          <h3 class="quote-text">{{ quote.quote }}</h3>
+          <p class="blurb">{{ quote.blurb }}</p>
+          <p class="related-story">Related Story</p>
+          <p class="story-url"><a href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
+        </div>
       </div>
-    </div>
+    {% endif %}
   {% endfor %}
   </div>
   <div class="next slide-btn">
