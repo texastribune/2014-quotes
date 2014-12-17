@@ -1,48 +1,52 @@
+.graphic{
+  @include outer-container();
+}
 
+.slideshow{
+  @include row();
+  position: relative;
+}
 
 .slider{
-  @include clearfix;
+  // @include clearfix;
+  margin-bottom: 10px;
   .slide{
-    @include clearfix;
-    // @include span-columns(10);
+    // @include clearfix;
+    @include span-columns(10);
     border: 1px solid #ccc;
     padding: 10px;
     display:none;
-    margin: 0px auto;
     width: 80%;
   }
 
   .active{
       display: block;
-      position: relative;
     }
 
   .quote{
-    // @include span-columns(6);
-    width: 60%;
-    float: left;
+    @include span-columns(6);
   }
 
   .quote-no-img{
-    // @include span-columns(10);
-    margin-left: 3em;
+
   }
 
   .blurb{
-    margin: 0 0 0 1em;
   }
 
   .quote-img{
-    // @include span-columns(6);
-    float: right;
-    width: 40%;
+    @include span-columns(6);
+    vertical-align: middle;
+    img{
+      width: 100%;
+    }
   }
 }
 
 .slide-btn{
-  position: absolute;
+  @include span-columns(1);
   cursor: pointer;
-  top: 50%;
+  text-align: center;
   // padding: 10px;
   font-size: 30px;
   transition: all 0.2s linear;
@@ -50,11 +54,15 @@
 }
 
 .next{
-  right: -0px;
+  @include omega();
 }
+
 .prev{
-  left: -0px;
-  z-index: 1001;
+}
+
+.btn-container{
+  // position:absolute;
+  top: 50%;
 }
 
 .related-story{
@@ -69,12 +77,19 @@
 .story-url{
   font-weight: 800;
   color: $href-teal;
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+  }
 }
 
 .view-all{
   // @include span-columns(2);
   cursor: pointer;
   border: 1px solid #ccc;
+  width: 20%;
+  margin: 0px auto;
+  text-align: center;
   :hover{
     background-color: #aaa;
   }

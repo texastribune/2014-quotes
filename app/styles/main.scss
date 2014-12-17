@@ -1,7 +1,8 @@
 @import 'bourbon/dist/bourbon';
 @import 'neat/app/assets/stylesheets/neat';
 
-@import 'newsapps-styles/initialize';
+@import 'newsapps-styles/base/normalize';
+@import 'newsapps-styles/base/typography';
 
 @import 'slideshow/text';
 @import 'slideshow/slideshow';

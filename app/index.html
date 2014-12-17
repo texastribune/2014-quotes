@@ -23,43 +23,50 @@
 </header>
 <p class="prose">In a year in which the governor got indicted, candidates duked it out in races for every statewide political office and Ebola came to Dallas, there were plenty of contenders for this list — even without the Legislature in session. But we’ve done our best to collect the most noteworthy quotes of 2014, straight from the mouths of Texas politicos, be they silver-tongued or tongue-tied. Click through our slideshow to revisit the blunders, bluster and occasional moments of eloquence over the last 12 months.</p>
 <div id="graphic" class="graphic">
-  <div class="prev slide-btn">
-    <i class="fa fa-chevron-left"></i>
-  </div>
-  <div class="clearfix">
-  <div class="slider">
-  {% for quote in QUOTES %}
-    {% if quote.imgOK == 'y' %}
-      <div class="slide">
-      <div class="clearfix">
-        <div class="prose quote">
-          <h2 class="quote-text">{{ quote.quote }}</h2>
-          <p class="blurb explainer-text">{{ quote.blurb }}</p>
-          <p class="source related-story">related story</p>
-          <p><a class="story-url" href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
-        </div>
-        <div class="img">
-          <img class="quote-img" src="{{ quote.imgUrl }}">
-        </div>
+  <div class="slideshow">
+    <div class="prev slide-btn">
+      <div class="btn-container">
+        <i class="fa fa-chevron-left"></i>
       </div>
-      </div>
-    {% else %}
-      <div class="slide">
-      <div class="clearfix">
-        <div class="quote-no-img prose">
-          <h2 class="quote-text">{{ quote.quote }}</h2>
-          <p class="blurb explainer-text">{{ quote.blurb }}</p>
-          <p class="source related-story">related story</p>
-          <p><a class="story-url" href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
+    </div>
+    <div class="clearfix">
+    <div class="slider">
+    {% for quote in QUOTES %}
+      {% if quote.imgOK == 'y' %}
+        <div class="slide">
+          <div class="prose quote">
+            <h2 class="quote-text">{{ quote.quote }}</h2>
+            <p class="blurb explainer-text">{{ quote.blurb }}</p>
+            <p class="related-story source">related story</p>
+            <p><a class="story-url" href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
+          </div>
+          <div class="quote-img">
+            <img src="{{ quote.imgUrl }}">
+            <div class="share-box">
+              <p>Share <span class="fa fa-twitter"></span></p>
+            </div>
+          </div>
         </div>
-      </div>
+      {% else %}
+        <div class="slide">
+        <div class="clearfix">
+          <div class="quote-no-img prose">
+            <h2 class="quote-text">{{ quote.quote }}</h2>
+            <p class="blurb explainer-text">{{ quote.blurb }}</p>
+            <p class="related-story">related story</p>
+            <p><a class="story-url" href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
+          </div>
+        </div>
       </div>
     {% endif %}
   {% endfor %}
   </div>
   </div>
-  <div class="next slide-btn">
-    <i class="fa fa-chevron-right"></i>
+    <div class="next slide-btn">
+      <div class="btn-container">
+        <i class="fa fa-chevron-right"></i>
+      </div>
+    </div>
   </div>
   <div class="view-all">
     <h3>View All</h3>
