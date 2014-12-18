@@ -17,12 +17,10 @@
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
-
-<header>
-  <h1>{{ META.project_name }}</h1>
-</header>
-<p class="prose">In a year in which the governor got indicted, candidates duked it out in races for every statewide political office and Ebola came to Dallas, there were plenty of contenders for this list — even without the Legislature in session. But we’ve done our best to collect the most noteworthy quotes of 2014, straight from the mouths of Texas politicos, be they silver-tongued or tongue-tied. Click through our slideshow to revisit the blunders, bluster and occasional moments of eloquence over the last 12 months.</p>
 <div id="graphic" class="graphic">
+<div class="counter">
+  <p><span class="current">1</span> out of <span class="total">13</span></p>
+</div>
   <div class="slideshow">
     <div class="prev slide-btn">
       <div class="btn-container">
@@ -39,14 +37,14 @@
             <h4 class="speaker">&#8212; {{ quote.speaker }}</h4>
           </div>
           <div class="blurb-box">
-            <p class="blurb">{{ quote.blurb }}</p>
+            <div class="blurb">{{ quote.blurb }}</div>
             <div class="quote-img">
               <img src="{{ quote.imgUrl }}">
             </div>
           </div>
         <div class="related-content">
           <p class="related-story source">related story</p>
-          <p><a class="story-url" target="_blank" href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
+          <p><a class="story-url" target="_top" href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
         </div>
         <div class="share-box">
           <p><span class="fa fa-twitter tweet social"></span> <span class="fa fa-envelope mail social"></span> <span class="fa fa-facebook fbook social"></span> </p>
@@ -60,11 +58,11 @@
               <h4 class="speaker">&#8212; {{ quote.speaker }}</h4>
             </div>
             <div class="blurb-box">
-              <p class="blurb">{{ quote.blurb }}</p>
+              <div class="blurb">{{ quote.blurb }}</div>
             </div>
             <div class="related-content">
               <p class="related-story">related story</p>
-              <p><a class="story-url" target="_blank" href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
+              <p><a class="story-url" target="_top" href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
             </div>
             <div class="share-box">
               <p><span class="fa fa-twitter tweet social"></span> <span class="fa fa-envelope mail social"></span> <span class="fa fa-facebook fbook social"></span> </p>
@@ -84,21 +82,16 @@
 
 </div>
 
-<footer>
-  <div>Source{{ 's' if sources.length > 1 else '' }}: {% for source in sources %}<a href="{{ source.url }}" target="_blank">{{ source.name }}</a> {% if not loop.last %} | {% endif %}{% endfor %}</div>
-  <div>Produced by {% for author in authors %}<a href="{{ author.url }}">{{ author.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</div>
-</footer>
-
 <!-- build:js scripts/vendor.js -->
 <!-- bower:js -->
 <!-- endbower -->
 <!-- endbuild -->
 
-<!-- build:js({app,.tmp}) scripts/main.js -->
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<!-- build:js({app,.tmp}) scripts/main.js -->
 <script src="scripts/main.js"></script>
-<script src="scripts/pymload.js"></script>
 <!-- endbuild -->
 
 </body>

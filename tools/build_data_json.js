@@ -26,8 +26,17 @@ SHEETS.forEach(function(sheet) {
   //   }
   //   console.log(marked(e['Bio']));
   // });
+  var data = XLSX.utils.sheet_to_json(worksheet);
 
-  DATA[sheet] = XLSX.utils.sheet_to_json(worksheet);
+  data.forEach(function(e) {
+    if (!e.blurb) {
+      return;
+    }
+    e.blurb = marked(e.blurb);
+
+  });
+
+  DATA[sheet] = data;
 });
 
 fs.writeFileSync('data.json', JSON.stringify(DATA, null, 2));

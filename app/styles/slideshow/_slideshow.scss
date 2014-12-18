@@ -40,8 +40,11 @@
   margin: .7em .8em;
 }
 
+$blurb-bp: new-breakpoint(min-width 550px);
+
 .blurb{
-  @include span-columns(7);
+  @include span-columns(12);
+  @include omega();
   border-top: 1px solid #ccc;
   color: $bodytext-black;
   font-family: $base-sans-serif;
@@ -49,12 +52,18 @@
   line-height: 1.3;
   padding: 1em;
   margin-top: 0px;
+  @include media($blurb-bp){
+    @include span-columns(7);
+  }
 }
 
 .quote-img{
-  @include span-columns(4);
+  @include span-columns(12);
   vertical-align: middle;
   margin-right: .5em;
+  @include media($blurb-bp){
+    @include span-columns(4);
+  }
   img{
     width: 100%;
   }
@@ -94,13 +103,20 @@
   }
 }
 
-.related-story{
-  color: $text-gray;
-  font-family: $base-sans-serif;
-  font-size: .90em;
-  font-weight: 400;
-  margin: .25em 0 0 0;
-  font-variant: small-caps;
+.related-content{
+  @include span-columns(12);
+  margin: 0 .5em;
+  .related-story{
+    color: $text-gray;
+    font-family: $base-sans-serif;
+    font-size: .90em;
+    font-weight: 400;
+    margin: .25em 0 0 0;
+    font-variant: small-caps;
+  }
+  p{
+    margin: .6em 0;
+  }
 }
 
 .story-url{

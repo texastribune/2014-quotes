@@ -1,9 +1,11 @@
-'use strict';
+(function() {
 
-$(document).ready(function() {
-
+  'use strict';
   //first quote appears
   $('.slide').eq(0).addClass('active');
+
+  //setting up counter
+  var current = '1';
 
   //prev/next buttons being buttons
   $('.slide-btn').on('click', function(){
@@ -13,10 +15,15 @@ $(document).ready(function() {
     $('.slide').eq(nextSlide).addClass('active').siblings('.active').removeClass('active');
     console.log(idx);
 
-    //reset at the end
+    pymChild.sendHeight();
+
+
+    // reset at the end
     if (idx === 12){
       $('.slide').eq(0).addClass('active').siblings('.active').removeClass('active');
-    }
+    };
+
+
   });
 
   // oh cool, it works with keyboard arrows too!
@@ -34,4 +41,6 @@ $(document).ready(function() {
     $('.view-all').addClass('hidden');
   });
 
-});
+  var pymChild = new pym.Child();
+
+})();
