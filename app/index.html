@@ -35,7 +35,7 @@
       {% if quote.imgOK == 'y' %}
         <div class="slide">
           <div class="prose quote">
-            <h2 class="quote-text">&#8220;{{ quote.quote }} &#8221;</h2>
+            <h2 class="quote-text">&#8220;{{ quote.quote }}&#8221;</h2>
             <h4 class="speaker">&#8212; {{ quote.speaker }}</h4>
           </div>
           <div class="blurb-box">
@@ -56,11 +56,11 @@
         <div class="slide">
           <div class="quote-no-img prose">
             <div class="prose quote">
-              <h2 class="quote-text">{{ quote.quote }}</h2>
+              <h2 class="quote-text">&#8220;{{ quote.quote }}&#8221;</h2>
               <h4 class="speaker">&#8212; {{ quote.speaker }}</h4>
             </div>
             <div class="blurb-box">
-              <p class="blurb explainer-text">{{ quote.blurb }}</p>
+              <p class="blurb">{{ quote.blurb }}</p>
             </div>
             <div class="related-content">
               <p class="related-story">related story</p>

@@ -37,11 +37,11 @@
 
 .blurb-box{
   @include span-columns(12);
-  margin: .7em .5em;
+  margin: .7em .8em;
 }
 
 .blurb{
-  @include span-columns(8);
+  @include span-columns(7);
   border-top: 1px solid #ccc;
   color: $bodytext-black;
   font-family: $base-sans-serif;
@@ -54,6 +54,7 @@
 .quote-img{
   @include span-columns(4);
   vertical-align: middle;
+  margin-right: .5em;
   img{
     width: 100%;
   }
