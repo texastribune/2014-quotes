@@ -69,6 +69,16 @@ $blurb-bp: new-breakpoint(min-width 550px);
   }
 }
 
+.img-credit{
+  font-family: $base-sans-serif;
+  font-weight: 300;
+  margin: 1em .5em;
+  font-size: .7em;
+  p{
+    margin: 0px;
+  }
+}
+
 .quote-no-img{
   @include span-columns(12);
   .blurb-box{

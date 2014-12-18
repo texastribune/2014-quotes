@@ -5,7 +5,7 @@
   $('.slide').eq(0).addClass('active');
 
   //setting up counter
-  var current = '1';
+  var current = 1;
 
   //prev/next buttons being buttons
   $('.slide-btn').on('click', function(){
@@ -23,7 +23,20 @@
       $('.slide').eq(0).addClass('active').siblings('.active').removeClass('active');
     };
 
+  });
 
+  $('.next.slide-btn').on('click', function(){
+    $('.current').html(current += 1);
+    if (idx === 12){
+      current = 1;
+    }
+  });
+
+  $('prev.slide-btn').on('click', function(){
+    $('current').html(current -= 1);
+    if (idx === 12){
+      current = 12;
+    }
   });
 
   // oh cool, it works with keyboard arrows too!
