@@ -2,146 +2,159 @@
   "QUOTES": [
     {
       "slug": "0",
-      "quote": "\"You know how long that takes in Texas at 75 miles an hour? That's a particularly flat highway.\"",
+      "quote": "You know how long that takes in Texas at 75 miles an hour? That's a particularly flat highway.",
       "speaker": "Judge Edith Jones",
       "month": "January",
       "blurb": "U.S. 5th Circuit Court Judge Edith Jones suggesting during a hearing the federal appeals court held on a new Texas abortion law that quick highways mean traveling hundreds of miles from the Rio Grande Valley to obtain an abortion wouldn't be an \"undue burden\" ",
       "headline": "Judges Question Texas Abortion Law Critics' Claims",
       "articleUrl": "http://www.houstonchronicle.com/news/politics/texas/article/Judges-question-Texas-abortion-law-critics-claims-5119245.php",
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2013/07/22/Protesters-Split_jpg_312x1000_q100.jpg",
-      "imgOK": "y"
+      "imgOK": "y",
+      "imgDir": "r"
     },
     {
       "slug": "1",
-      "quote": "“MARRIAGE = ONE MAN & ONE MAN. Enough of these activist judges. FAVORITE if you agree. I know the silent majority out there is with us!”",
+      "quote": "MARRIAGE = ONE MAN & ONE MAN. Enough of these activist judges. FAVORITE if you agree. I know the silent majority out there is with us!",
       "speaker": "State Sen. Dan Patrick",
       "month": "February",
       "blurb": "A mistaken tweet from state Sen. Dan Patrick, now lieutenant governor-elect, who staunchly opposes gay marriage, written by a staffer and later deleted",
       "headline": "Dan Patrick Tweet on Gay Marriage is Set Straight",
       "articleUrl": "http://www.dallasnews.com/news/politics/state-politics/elections/20140226-patrick-tweet-on-gay-marriage-is-set-straight.ece",
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/03/04/Patrick3-web_jpg_312x1000_q100.jpg",
-      "imgOK": "y"
+      "imgOK": "y",
+      "imgDir": "r"
     },
     {
       "slug": "2",
-      "quote": "\"Apparently I’ve outfoxed the campaign deal, so maybe I need to be a consultant. I’m not going to run all over the state. I work.\"",
+      "quote": "Apparently I’ve outfoxed the campaign deal, so maybe I need to be a consultant. I’m not going to run all over the state. I work.",
       "speaker": "Jim Hogan",
       "month": "March",
       "blurb": "Democratic agriculture commissioner candidate Jim Hogan on his come-from-nowhere appearance in the party runoff for the statewide office. After winning the Democratic nomination, he lost by nearly the same margin as the party's high-profile gubernatorial candidate, Wendy Davis.",
       "headline": "No Money is No Problem for Democrat Jim Hogan in Texas Agriculture Commissioner Race",
       "articleUrl": "http://www.dallasnews.com/news/politics/headlines/20140316-no-money-is-no-problem-for-democrat-jim-hogan-in-texas-agriculture-commissioner-race.ece",
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/03/26/JimHogan_jpg_75x75_crop_q100.jpg",
-      "imgOK": "n"
+      "imgOK": "n",
+      "imgDir": "n"
     },
     {
       "slug": "3",
-      "quote": "\"Out there on Twitter, in front of the Alamo in your campaign, you know, you’ve been huffing and puffing like the big bad wolf and now you’re dancing around, tiptoeing like Little Red Riding Hood on this issue.\"",
+      "quote": "Out there on Twitter, in front of the Alamo in your campaign, you know, you’ve been huffing and puffing like the big bad wolf and now you’re dancing around, tiptoeing like Little Red Riding Hood on this issue.",
       "speaker": "San Antonio Mayor Julián Castro",
       "month": "April",
       "blurb": "San Antonio Mayor Julián Castro, a Democrat, as he debated Republican lieutenant governor candidate Dan Patrick, claiming that Patrick had softened his stand on immigration",
       "headline": "Castro and Patrick Spar Over Immigration, Build Political Capital for the Future",
       "articleUrl": "http://tpr.org/post/castro-and-patrick-spar-over-immigration-build-political-capital-future",
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/04/15/CastroPatrick309_jpg_75x75_crop_q100.jpg",
-      "imgOK": "n"
+      "imgOK": "n",
+      "imgDir": "n"
     },
     {
       "slug": "4",
-      "quote": "\"Dewhurst has asked me to cease distribution of this information. He also asked me not to run against him for Lt. Gov. I didn't really give a damn what David wanted then, and I don't give a damn now. The voters of Texas need to know.\"",
+      "quote": "Dewhurst has asked me to cease distribution of this information. He also asked me not to run against him for Lt. Gov. I didn't really give a damn what David wanted then, and I don't give a damn now. The voters of Texas need to know.",
       "speaker": "Jerry Patterson",
       "month": "May",
       "blurb": "Lieutenant governor candidate Jerry Patterson in an email sent to reporters releasing documents on the medical history of his former opponent, state Sen. Dan Patrick, during Patrick's runoff with incumbent David Dewhurst",
       "headline": "Patrick Blasts Dewhurst and Patterson for Medical Disclosures",
       "articleUrl": "http://www.texastribune.org/2014/05/16/possible-dewhurst-involvement-patrick-revelations/",
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/videos/pattersonspot_png_260x1000_q100.png",
-      "imgOK": "n"
+      "imgOK": "n",
+      "imgDir": "n"
     },
     {
       "slug": "5",
-      "quote": "\"Some Democrats have said they wanted me to be the nominee. Well, they’ve got me and I’m coming.\"",
+      "quote": "Some Democrats have said they wanted me to be the nominee. Well, they’ve got me and I’m coming.",
       "speaker": "State Sen. Dan Patrick",
       "month": "May",
       "blurb": "State Sen. Dan Patrick, now lieutenant governor-elect, as he won a May runoff with incumbent David Dewhurst to become the Republican nominee",
       "headline": "Democrats See Opportunity in GOP Ticket",
       "articleUrl": "http://www.houstonchronicle.com/news/politics/texas/article/Democrats-see-opportunity-in-GOP-ticket-5511433.php#/0",
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/05/27/DAN_PATRICK_RUNOFF9501_jpg_800x1000_q100.jpg",
-      "imgOK": "y"
+      "imgOK": "y",
+      "imgDir": "r"
     },
     {
       "slug": "6",
-      "quote": "\"The uninformed opinions of a Washington, D.C., desk jockey who's never stepped foot in Texas couldn't be less relevant to what's actually happening on the ground.\"",
+      "quote": "The uninformed opinions of a Washington, D.C., desk jockey who's never stepped foot in Texas couldn't be less relevant to what's actually happening on the ground.",
       "speaker": "Karin Johanson",
       "month": "June",
       "blurb": "Wendy Davis campaign manager Karin Johanson, pushing back against a less-than-rosy assessment of the candidate's chances given by Democratic Governors Association Chairman Peter Shumlin",
       "headline": "Wendy Davis Defiant as Campaign Grinds On",
       "articleUrl": "http://www.politico.com/story/2014/06/wendy-davis-defiant-as-campaign-grinds-on-108147.html",
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/09/19/ttf-davisabbott-3_JPG_312x1000_q100.JPG",
-      "imgOK": "y"
+      "imgOK": "y",
+      "imgDir": "l"
     },
     {
       "slug": "7",
-      "quote": "“We need to look at the states, which are lavatories of innovation and democracy.”",
+      "quote": "We need to look at the states, which are lavatories of innovation and democracy.",
       "speaker": "Gov. Rick Perry",
       "month": "August",
       "blurb": "Gov. Rick Perry, tripping on his words at a speaking engagement in New Hampshire",
       "headline": "Is It Any Wonder They’re Flush With Prosperity?",
       "articleUrl": "http://www.texasmonthly.com/story/rick-perry-bum-steer-of-the-month-october-2014",
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/09/21/xxTribFest_Perry392_jpg_260x1000_q100.jpg",
-      "imgOK": "y"
+      "imgOK": "y",
+      "imgDir": "r"
     },
     {
       "slug": "8",
-      "quote": "\"We don't settle political differences with indictments in this country. It is outrageous that some would use partisan political theatrics to rip away at the very fabric of our state's constitution.\"",
+      "quote": "We don't settle political differences with indictments in this country. It is outrageous that some would use partisan political theatrics to rip away at the very fabric of our state's constitution.",
       "speaker": "Gov. Rick Perry",
       "month": "August",
       "blurb": "Gov. Rick Perry, speaking at a news conference the day after a Travis County grand jury returned an indictment against him on two felony charges",
       "headline": "Perry Fires Back, Calls Indictment a Political Ploy",
       "articleUrl": "http://www.texastribune.org/2014/08/16/perry-fires-back-calls-indictment-political-ploy/",
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/videos/Perry_in_court_Nov_2014_jpg_260x1000_q100.jpg",
-      "imgOK": "y"
+      "imgOK": "y",
+      "imgDir": "l"
     },
     {
       "slug": "9",
-      "quote": "“And all I can do is deal with the issues that are before me. … The job of attorney general is to represent and defend in court the laws of their client, which is the state Legislature, unless and until a court strikes it down.”",
+      "quote": "And all I can do is deal with the issues that are before me. … The job of attorney general is to represent and defend in court the laws of their client, which is the state Legislature, unless and until a court strikes it down.",
       "speaker": "Attorney General Greg Abbott",
       "month": "October",
       "blurb": "Attorney General Greg Abbott, now governor-elect, when asked by the San Antonio Express-News editorial board whether as attorney general he would have defended a ban on interracial marriage [[italicize San Antonio Express-News]]",
       "headline": "Does Anyone Really Believe That Greg Abbott Opposes Interracial Marriage?",
       "articleUrl": "http://dallasmorningviewsblog.dallasnews.com/2014/10/does-anyone-really-believe-that-greg-abbott-opposes-interracial-marriage.html/",
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/11/11/UP9A9907_jpg_312x1000_q100.jpg",
-      "imgOK": "y"
+      "imgOK": "y",
+      "imgDir": "r"
     },
     {
       "slug": "10",
-      "quote": "\"If that dog has to be The Boy in the Plastic Bubble, we're going to take good care of that dog.\"",
+      "quote": "If that dog has to be The Boy in the Plastic Bubble, we're going to take good care of that dog.",
       "speaker": "Judge Clay Jenkins",
       "month": "October",
       "blurb": "Dallas County Judge Clay Jenkins, referring to the monitoring of a dog belonging to nurse Nina Pham, who contracted Ebola while caring for a patient at Texas Health Presbyterian Hospital",
       "headline": "5 Questions on Ebola With County Judge Clay Jenkins",
       "articleUrl": "http://www.wfaa.com/story/news/health/2014/10/13/ebola-dallas-county-judge-clay-jenkins-second-patient/17182925/",
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/10/09/ClayJenkinsTribLiveTTCrop_jpg_312x1000_q100.jpg",
-      "imgOK": "y"
+      "imgOK": "y",
+      "imgDir": "r"
     },
     {
       "slug": "11",
-      "quote": "\"The only way we will have lost tonight is if we stop fighting. I am so proud of all that we have accomplished.\"",
+      "quote": "The only way we will have lost tonight is if we stop fighting. I am so proud of all that we have accomplished.",
       "speaker": "Wendy Davis",
       "month": "November",
       "blurb": "Democrat Wendy Davis, speaking to her supporters on election night as she conceded the governor's race to Republican Greg Abbott",
       "headline": "Greg Abbott Crushes Wendy Davis in GOP Sweep",
       "articleUrl": "http://www.texastribune.org/2014/11/04/abbott-crushes-wendy-davis-gop-sweep/",
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/07/12/TXTDavisCanvas-CCR001_jpg_800x1000_q100.jpg",
-      "imgOK": "y"
+      "imgOK": "y",
+      "imgDir": "l"
     },
     {
       "slug": "12",
-      "quote": "“We were elected to govern. If we blow it by not governing, then shame on us.”",
+      "quote": "We were elected to govern. If we blow it by not governing, then shame on us.",
       "speaker": "U.S. Rep. Michael McCaul",
       "month": "December",
       "blurb": "U.S. Rep. Michael McCaul, R-Austin, criticizing U.S Sen. Ted Cruz's tactic of opposing the must-pass federal spending bill as part of his efforts to countermand President Obama's executive order on immigration",
       "headline": "Cruz Colleague Slams Senator's Immigration Tactics",
       "articleUrl": "http://www.bloomberg.com/politics/articles/2014-12-11/cruz-colleague-slams-senators-immigration-tactics",
       "imgUrl": "http://s3.amazonaws.com/static.texastribune.org/media/images/MichaelMcCaul_1_jpg_75x75_crop_q100.jpg",
-      "imgOK": "n"
+      "imgOK": "n",
+      "imgDir": "n"
     }
   ]
 }

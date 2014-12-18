@@ -35,18 +35,21 @@
       {% if quote.imgOK == 'y' %}
         <div class="slide">
           <div class="prose quote">
-            <h2 class="quote-text">{{ quote.quote }}</h2>
-            <h4 class="speaker">{{ quote.speaker }}</h4>
+            <h2 class="quote-text">&#8220;{{ quote.quote }} &#8221;</h2>
+            <h4 class="speaker">&#8212; {{ quote.speaker }}</h4>
           </div>
           <div class="blurb-box">
-            <p class="blurb explainer-text">{{ quote.blurb }}</p>
+            <p class="blurb">{{ quote.blurb }}</p>
             <div class="quote-img">
               <img src="{{ quote.imgUrl }}">
             </div>
           </div>
         <div class="related-content">
           <p class="related-story source">related story</p>
-          <p><a class="story-url" href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
+          <p><a class="story-url" target="_blank" href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
+        </div>
+        <div class="share-box">
+          <p><span class="fa fa-twitter tweet social"></span> <span class="fa fa-envelope mail social"></span> <span class="fa fa-facebook fbook social"></span> </p>
         </div>
       </div>
       {% else %}
@@ -54,14 +57,17 @@
           <div class="quote-no-img prose">
             <div class="prose quote">
               <h2 class="quote-text">{{ quote.quote }}</h2>
-              <h4 class="speaker">{{ quote.speaker }}</h4>
+              <h4 class="speaker">&#8212; {{ quote.speaker }}</h4>
             </div>
             <div class="blurb-box">
               <p class="blurb explainer-text">{{ quote.blurb }}</p>
             </div>
             <div class="related-content">
               <p class="related-story">related story</p>
-              <p><a class="story-url" href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
+              <p><a class="story-url" target="_blank" href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
+            </div>
+            <div class="share-box">
+              <p><span class="fa fa-twitter tweet social"></span> <span class="fa fa-envelope mail social"></span> <span class="fa fa-facebook fbook social"></span> </p>
             </div>
           </div>
         </div>
@@ -74,9 +80,6 @@
         <i class="fa fa-chevron-right"></i>
       </div>
     </div>
-  </div>
-  <div class="view-all">
-    <h3>View All</h3>
   </div>
 
 </div>

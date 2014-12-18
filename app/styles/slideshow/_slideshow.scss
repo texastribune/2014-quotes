@@ -5,15 +5,14 @@
 .slideshow{
   @include row();
   position: relative;
+  margin-bottom: 10px;
 }
 
 .slider{
-  // @include clearfix;
-  margin-bottom: 10px;
   .slide{
-    // @include clearfix;
     @include span-columns(10);
-    border: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
     padding: 10px;
     display:none;
     width: 80%;
@@ -25,21 +24,31 @@
 
   .quote{
     @include span-columns(12);
+    .speaker{
+      color: $bodytext-black;
+      font-family: $base-sans-serif;
+      font-weight: 800;
+      line-height: 1.2;
+      text-align: left;
+      margin: .2em 0em 1em 3em;
+    }
   }
 }
 
 .blurb-box{
   @include span-columns(12);
+  margin: .7em .5em;
 }
 
 .blurb{
   @include span-columns(8);
-  background: $explainer-gray;
+  border-top: 1px solid #ccc;
   color: $bodytext-black;
   font-family: $base-sans-serif;
   font-weight: 300;
   line-height: 1.3;
   padding: 1em;
+  margin-top: 0px;
 }
 
 .quote-img{
@@ -53,6 +62,7 @@
 .quote-no-img{
   @include span-columns(12);
   .blurb-box{
+    margin: .7em .5em;
     .blurb{
       @include span-columns(12);
     }
@@ -70,18 +80,17 @@
   font-size: 30px;
   transition: all 0.2s linear;
   color: black;
-}
+  .next{
+    @include omega();
+  }
 
-.next{
-  @include omega();
-}
+  .prev{
+  }
 
-.prev{
-}
-
-.btn-container{
-  // position:absolute;
-  top: 50%;
+  .btn-container{
+    // position:absolute;
+    top: 50%;
+  }
 }
 
 .related-story{
@@ -102,15 +111,21 @@
   }
 }
 
-.view-all{
-  // @include span-columns(2);
-  cursor: pointer;
-  border: 1px solid #ccc;
-  width: 20%;
-  margin: 0px auto;
+.share-box{
+  @include span-columns(12);
   text-align: center;
-  :hover{
-    background-color: #aaa;
+  .social{
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    margin: 2px;
+    padding: 3px;
+    width: 3em;
+    &:hover{
+      background-color: #ccc;
+    }
+  }
+  p{
+    margin: .5em;
   }
 }
 
