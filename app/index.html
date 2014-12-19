@@ -19,7 +19,7 @@
 <body>
 <div id="graphic" class="graphic">
 <div class="counter">
-  <p><span class="current">1</span> of <span class="total">13</span></p>
+  <p><span class="current" id="current">1</span> of <span class="total" id="total"></span></p>
 </div>
   <div class="slideshow">
     <div class="prev slide-btn">
@@ -28,8 +28,8 @@
     <div class="clearfix">
     <div class="slider">
     {% for quote in QUOTES %}
+    <div class="slide{% if loop.first %} active{% endif %}">
       {% if quote.imgOK == 'y' %}
-        <div class="slide">
           <div class="prose quote">
             <h2 class="quote-text">&#8220;{{ quote.quote }}&#8221;</h2>
             <h4 class="speaker">&#8212; {{ quote.speaker }}</h4>
@@ -38,7 +38,7 @@
             <div class="blurb">{{ quote.blurb }}</div>
             <div class="quote-img">
               <img src="{{ quote.imgUrl }}">
-              <p class="img-credit">{{ quote.credit }}</p>
+              <p class="img-credit">Photo by: {{ quote.credit }}</p>
             </div>
           </div>
         <div class="related-content">
@@ -46,11 +46,9 @@
           <p><a class="story-url" target="_top" href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
         </div>
         <div class="share-box">
-          <a target="_top" href="https://www.facebook.com/dialog/feed?app_id=154122474650943&display=popup&name=The%20Tribune%27s%20Best%20Quotes%20of%202014&link=http%3A%2F%2Fwww.texastribune.org%2F2014%2F12%2F23%2Ftribunes-best-quotes-2014%2F&redirect_uri=http%3A%2F%2Fwww.texastribune.org%2F2014%2F12%2F23%2Ftribunes-best-quotes-2014%2F&description={{ quote.quote | urlencode }}&image={{ quote.facebookUrl | urlencode }}"><span class="fa fa-facebook fbook social"></span></a>
+          <a target="_top" href="https://www.facebook.com/dialog/feed?app_id=154122474650943&display=popup&name=In%20Their%20Own%20Words%3A%20Best%20Quotes%20of%202014&link=http%3A%2F%2Fwww.texastribune.org%2F2014%2F12%2F23%2Ftribunes-best-quotes-2014%2F&redirect_uri=http%3A%2F%2Fwww.texastribune.org%2F2014%2F12%2F23%2Ftribunes-best-quotes-2014%2F&description={{ quote.quote | urlencode }}&picture={{ quote.facebookUrl | urlencode }}"><span class="fa fa-facebook fbook social"></span></a>
         </div>
-      </div>
       {% else %}
-        <div class="slide">
           <div class="quote-no-img prose">
             <div class="prose quote">
               <h2 class="quote-text">&#8220;{{ quote.quote }}&#8221;</h2>
@@ -65,12 +63,12 @@
             </div>
             <div class="share-box">
               <p>
-              <a target="_top" href="https://www.facebook.com/dialog/feed?app_id=154122474650943&display=popup&name=The%20Tribune%27s%20Best%20Quotes%20of%202014&link=http%3A%2F%2Fwww.texastribune.org%2F2014%2F12%2F23%2Ftribunes-best-quotes-2014%2F&redirect_uri=http%3A%2F%2Fwww.texastribune.org%2F2014%2F12%2F23%2Ftribunes-best-quotes-2014%2F&description={{ quote.quote | urlencode }}&image={{ quote.facebookUrl | urlencode }}"><span class="fa fa-facebook fbook social"></span></a>
+              <a target="_top" href="https://www.facebook.com/dialog/feed?app_id=154122474650943&display=popup&name=In%20Their%20Own%20Words%3A%20Best%20Quotes%20of%202014&link=http%3A%2F%2Fwww.texastribune.org%2F2014%2F12%2F23%2Ftribunes-best-quotes-2014%2F&redirect_uri=http%3A%2F%2Fwww.texastribune.org%2F2014%2F12%2F23%2Ftribunes-best-quotes-2014%2F&description={{ quote.quote | urlencode }}&picture={{ quote.facebookUrl | urlencode }}"><span class="fa fa-facebook fbook social"></span></a>
               </p>
             </div>
           </div>
-        </div>
       {% endif %}
+      </div>
     {% endfor %}
   </div>
   </div>

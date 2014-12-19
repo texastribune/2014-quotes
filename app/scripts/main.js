@@ -1,29 +1,35 @@
+/* global pym */
+
 (function() {
 
   'use strict';
-  //first quote appears
-  $('.slide').eq(0).addClass('active');
 
-  //setting up counter
-  var current = 1;
+  var $slide = $('.slide');
+  var $slideBtn = $('.slide-btn');
+  var $current = $('#current');
+  var $total = $('#total');
+
+  $total.text($slide.length);
 
   //prev/next buttons being buttons
-  $('.slide-btn').on('click', function(){
-    var trigger = $(this).hasClass('next') ? 'next' : 'prev';
-    var activeSlide = $('.slide.active'),
-      idx = $('.slide').index(activeSlide),
-      nextSlide = trigger === 'next' ? idx + 1 : idx - 1;
-    $('.slide').eq(nextSlide).addClass('active').siblings('.active').removeClass('active');
-    console.log(idx);
+  $slideBtn.on('click', function(){
+    var trigger = $(this).hasClass('next') ? 'next' : 'prev',
+      $activeSlide = $slide.filter('.active'),
+      newSlide;
+      $slide.removeClass('active');
+      if(trigger === 'next'){
+        newSlide = $activeSlide.next();
+        newSlide = newSlide.length ? newSlide : $slide.first();
+      } else {
+        newSlide = $activeSlide.prev();
+        newSlide = newSlide.length ? newSlide : $slide.last();
+      }
+      newSlide.addClass('active');
+
 
     pymChild.sendHeight();
 
-    // reset at the end
-    if (idx === 12 && trigger === 'next'){
-      $('.slide').eq(0).addClass('active').siblings('.active').removeClass('active');
-    };
-
-    $('.current').text($('.slide').index($('.active')) + 1);
+    $current.text(newSlide.index() + 1);
     // console.log(nextSlide);
   });
 
@@ -34,12 +40,6 @@
     } else if (e.which === 39) { // right key
         $('.next').trigger('click');
     }
-  });
-  // all of the quotes
-  $('.view-all').on('click', function(){
-    $('.slide').addClass('active');
-    $('.slide-btn').addClass('hidden');
-    $('.view-all').addClass('hidden');
   });
 
   var pymChild = new pym.Child();
