@@ -19,12 +19,12 @@
 <body>
 <div id="graphic" class="graphic">
 <div class="counter">
-  <p><span class="current">1</span> out of <span class="total">13</span></p>
+  <p><span class="current">1</span> of <span class="total">13</span></p>
 </div>
   <div class="slideshow">
     <div class="prev slide-btn">
       <div class="btn-container">
-        <i class="fa fa-chevron-left"></i>
+        <a href="javascript:void(0)"><i class="fa fa-chevron-left"></i></a>
       </div>
     </div>
     <div class="clearfix">
@@ -48,7 +48,7 @@
           <p><a class="story-url" target="_top" href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
         </div>
         <div class="share-box">
-          <p><span class="fa fa-twitter tweet social"></span> <span class="fa fa-envelope mail social"></span> <span class="fa fa-facebook fbook social"></span> </p>
+          <a target="_top" href="https://www.facebook.com/dialog/feed?app_id=154122474650943&display=popup&name=The%20Tribune%27s%20Best%20Quotes%20of%202014&link=http%3A%2F%2Fwww.texastribune.org%2F2014%2F12%2F23%2Ftribunes-best-quotes-2014%2F&redirect_uri=http%3A%2F%2Fwww.texastribune.org%2F2014%2F12%2F23%2Ftribunes-best-quotes-2014%2F&description={{ quote.quote | urlencode }}&image={{ quote.facebookUrl | urlencode }}"><span class="fa fa-facebook fbook social"></span></a>
         </div>
       </div>
       {% else %}
@@ -66,7 +66,9 @@
               <p><a class="story-url" target="_top" href="{{ quote.articleUrl }}">{{ quote.headline }}</a></p>
             </div>
             <div class="share-box">
-              <p><span class="fa fa-twitter tweet social"></span> <span class="fa fa-envelope mail social"></span> <span class="fa fa-facebook fbook social"></span> </p>
+              <p>
+              <a target="_top" href="https://www.facebook.com/dialog/feed?app_id=154122474650943&display=popup&name=The%20Tribune%27s%20Best%20Quotes%20of%202014&link=http%3A%2F%2Fwww.texastribune.org%2F2014%2F12%2F23%2Ftribunes-best-quotes-2014%2F&redirect_uri=http%3A%2F%2Fwww.texastribune.org%2F2014%2F12%2F23%2Ftribunes-best-quotes-2014%2F&description={{ quote.quote | urlencode }}&image={{ quote.facebookUrl | urlencode }}"><span class="fa fa-facebook fbook social"></span></a>
+              </p>
             </div>
           </div>
         </div>
@@ -76,7 +78,7 @@
   </div>
     <div class="next slide-btn">
       <div class="btn-container">
-        <i class="fa fa-chevron-right"></i>
+        <a href="javascript:void(0)"><i class="fa fa-chevron-right"></i></a>
       </div>
     </div>
   </div>

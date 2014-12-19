@@ -9,34 +9,22 @@
 
   //prev/next buttons being buttons
   $('.slide-btn').on('click', function(){
+    var trigger = $(this).hasClass('next') ? 'next' : 'prev';
     var activeSlide = $('.slide.active'),
       idx = $('.slide').index(activeSlide),
-      nextSlide = $(this).hasClass('next') ? idx + 1 : idx - 1;
+      nextSlide = trigger === 'next' ? idx + 1 : idx - 1;
     $('.slide').eq(nextSlide).addClass('active').siblings('.active').removeClass('active');
     console.log(idx);
 
     pymChild.sendHeight();
 
-
     // reset at the end
-    if (idx === 12){
+    if (idx === 12 && trigger === 'next'){
       $('.slide').eq(0).addClass('active').siblings('.active').removeClass('active');
     };
 
-  });
-
-  $('.next.slide-btn').on('click', function(){
-    $('.current').html(current += 1);
-    if (idx === 12){
-      current = 1;
-    }
-  });
-
-  $('prev.slide-btn').on('click', function(){
-    $('current').html(current -= 1);
-    if (idx === 12){
-      current = 12;
-    }
+    $('.current').text($('.slide').index($('.active')) + 1);
+    // console.log(nextSlide);
   });
 
   // oh cool, it works with keyboard arrows too!

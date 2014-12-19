@@ -2,6 +2,13 @@
   @include outer-container();
 }
 
+.counter{
+  font-weight: 600;
+  text-align: center;
+  font-style: italic;
+  font-size: .8em;
+}
+
 .slideshow{
   @include row();
   position: relative;
@@ -100,6 +107,11 @@ $blurb-bp: new-breakpoint(min-width 550px);
   font-size: 30px;
   transition: all 0.2s linear;
   color: black;
+  a{
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
   .next{
     @include omega();
   }
@@ -148,12 +160,19 @@ $blurb-bp: new-breakpoint(min-width 550px);
     padding: 3px;
     width: 3em;
     &:hover{
-      background-color: #ccc;
+      background-color: #ddd;
     }
   }
   p{
     margin: .5em;
   }
+  a{
+  text-decoration: none;
+  color: #3b5998;
+  &:hover{
+    text-decoration: underline;
+  }
+}
 }
 
 .hidden{
