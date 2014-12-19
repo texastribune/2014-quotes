@@ -111,6 +111,8 @@ $blurb-bp: new-breakpoint(min-width 550px);
     text-decoration: none;
     color: black;
     display: block;
+    height: 100%;
+    width: 100%;
   }
   .next{
     @include omega();
